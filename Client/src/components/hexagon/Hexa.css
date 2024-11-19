@@ -1,0 +1,33 @@
+.hexa-container {
+  margin:auto 0 ; ;
+  display: flex;
+  flex-wrap: wrap
+}
+
+.hexa-container .hexaArea {
+  font-size: 10px;
+}
+.last{
+  transform: translateY(31px);
+}
+.hexa {
+  position: relative;
+  width: 60px;
+  height: 55px;
+  margin: 8px -4px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.hexa:hover {
+  background-color: var(--btn-color);
+  transform: scale(0.9);
+  color: var(--font-color-2);
+  font-size: 10px;
+  transition: 0.1s;
+}
