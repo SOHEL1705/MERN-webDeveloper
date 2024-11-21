@@ -11,7 +11,7 @@ const cors = require("cors")
 
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'http://localhost:5174',
   method : "GET,POST,PUT,DELETE",
  
 }

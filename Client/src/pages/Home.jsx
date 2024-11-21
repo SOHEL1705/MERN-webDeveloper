@@ -9,10 +9,11 @@ export const Home = () => {
       <h1 className="text-5xl font-bold">Sohel Web Solution</h1>
       <p className="pt-3 text-lg">Professional Web Development Services</p>
       <p className="pt-6" >We offer a range of web development solutions, including custom websites, e-commerce platforms, responsive design, and more. Partner with us to bring your online presence to life.</p>
-      <div className=" pt-6  space-x-3">
+      <div className=" pt-6 space-x-3  my-8">
           <a href="/contact">
           <button className="btn btn-ghost ml-4 mx-4  btn-active " >Contact now</button>
           </a>
+    
           <a href="/services">
           <button className="btn btn-outline btn-wide">Learn more</button>
           </a>
