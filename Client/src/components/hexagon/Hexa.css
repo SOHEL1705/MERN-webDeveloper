@@ -6,6 +6,7 @@
 
 .hexa-container .hexaArea {
   font-size: 10px;
+  color: black;
 }
 .last{
   transform: translateY(31px);
@@ -16,7 +17,7 @@
   height: 55px;
   margin: 8px -4px;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, rgba(255, 254, 254, 0.15) 0%, rgba(231, 138, 38, 0.991) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(235, 8, 8, 0.4) 120%) #989898;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +28,8 @@
 .hexa:hover {
   background-color: var(--btn-color);
   transform: scale(0.9);
-  color: var(--font-color-2);
+  color:white;
+  font-weight: 600;
   font-size: 10px;
   transition: 0.1s;
 }
